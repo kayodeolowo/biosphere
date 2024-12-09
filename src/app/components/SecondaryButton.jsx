@@ -15,4 +15,5 @@ text-black
 hover:bg-[#0B301E]
 hover:text-white
 hover:shadow-lg
+font-bold
 `

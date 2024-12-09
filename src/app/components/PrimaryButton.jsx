@@ -12,5 +12,6 @@ duration-300
 text-sm
 text-white
 hover:bg-[#A3EB6B]
+font-bold
 hover:text-black
 `

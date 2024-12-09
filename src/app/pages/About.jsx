@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="bg-[#F3F5F4]">
       <Container>
-        <div className="flex md:flex-row flex-col pt-16">
+        <div className="flex md:flex-row flex-col pt-16" id="about">
           <div className="md:w-[68%]  ">
             <div className="flex w-fit items-center space-x-2">
              <div className="h-1 w-6 md:w-12 bg-[#001F10]"> </div>

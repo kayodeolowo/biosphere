@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className='bg-[#F3F5F4] '>
 <Container >
-    <div className=' '>
+    <div id='service' className=' '>
 
         <div className='pt-20 flex md:flex-row flex-col md:items-center md:justify-between'>
         <h1 className='text-bold text-2xl md:text-4xl md:max-w-[60rem]  md:w-[90%]'> Explore our comprehensive suite of ecosystem services, designed to meet the unique needs of your project or organization. </h1>
@@ -87,8 +87,8 @@ const Services = () => {
     </div>
 
 
-    <div>
-        <p className='text-2xl md:text-5xl font-bold'>  When it comes to ecosystem management, experience and expertise make all the difference. Here&apos;s why <span className='bg-[#E0E40B]  '> Biophere Solutions </span> is the trusted partner for your nature-based initiatives. </p>
+    <div id='technology'>
+        <p className='text-2xl md:text-5xl font-bold'>  When it comes to ecosystem management, experience and expertise make all the difference. Here&apos;s why <span className='bg-[#E0E40B]  '> Biophere Solutions</span> is the trusted partner for your nature-based initiatives. </p>
    
    <div className='flex md:flex-row flex-col mt-14  md:space-x-2 pb-12'>
     <div className='md:w-[49%]'>

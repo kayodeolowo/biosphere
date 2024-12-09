@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <section>
       <Container>
-        <div>
-          <h1 className="text-3xl md:text-[4.5rem] font-bold text-center text-white mt-12 leading-tight md:mt-20">
+        <div id="home">
+          <h1 className="text-3xl md:text-[4.5rem] font-bold text-center text-white mt-12 leading-loose md:leading-snug md:mt-20">
             {" "}
             Discover the Wonders of <br />{" "}
             <span className="bg-[#CDFBA9] text-black px-1 rounded-xl">
