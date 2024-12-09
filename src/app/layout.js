@@ -19,7 +19,7 @@ const AveriaSerifLibre = localFont({
 });
 
 export const metadata = {
-  title: "Biosphere",
+  title: "Biosphere Solutions",
   description: "Discover the Wonders of Nature's Harmony",
 };
 
