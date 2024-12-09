@@ -45,11 +45,11 @@ We recognize that ecosystems provide essential services such as clean air, water
               src="/assets/images/union.png"
               width={300}
               height={420}
-              className=" max-md:w-fit mx-auto "
+              className=" max-md:w-fit mx-auto max-md:mt-4 "
             />
           </div>
 
-          <div className="md:w-[50%]">
+          <div className="md:w-[50%] ">
             <div className="flex  items-center space-x-2">
              <div className="h-1 w-12 bg-[#001F10]"> </div>
              <h1 className="text-2xl md:text-3xl font-bold text-[#001F10]"> Customized Strategies </h1>
