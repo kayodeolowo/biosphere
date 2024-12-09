@@ -12,6 +12,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const AveriaSerifLibre = localFont({
+  src: "./fonts/AveriaSerifLibre-Regular.ttf",
+  variable: "--font-AveriaSerifLibre-Regular",
+  weight: "100 900",
+});
+
 export const metadata = {
   title: "Biosphere",
   description: "Discover the Wonders of Nature's Harmony",
@@ -21,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${AveriaSerifLibre.variable} antialiased`}
       >
         {children}
       </body>

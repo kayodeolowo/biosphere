@@ -10,12 +10,12 @@ const About = () => {
           <div className="md:w-[68%]  ">
             <div className="flex w-fit items-center space-x-2">
              <div className="h-1 w-6 md:w-12 bg-[#001F10]"> </div>
-             <h1 className="md:text-3xl text-lg font-semibold text-[#001F10]"> Ecosystem-based Solutions </h1>
+             <h1 className="md:text-3xl text-2xl font-bold text-[#001F10]"> Ecosystem-based Solutions </h1>
              <div className="h-1 w-6 md:w-12 bg-[#001F10]"> </div>
             </div>
  
 
-            <p className="max-w-[40rem] mt-2">
+            <p className="max-w-[40rem] text-[#777777]  leading-snug mt-2">
               {" "}
               Our mission is to empower individuals, communities, and organizations to become proactive stewards of the natural world. By implementing innovative ecosystem-based solutions, we aim to foster sustainability, resilience, and a deep understanding of the interconnectedness of nature. Through our educational initiatives, we strive to inspire action that helps preserve and restore ecosystems, ensuring a balanced relationship between human activity and the environment.
 
@@ -52,12 +52,12 @@ We recognize that ecosystems provide essential services such as clean air, water
           <div className="md:w-[50%]">
             <div className="flex  items-center space-x-2">
              <div className="h-1 w-12 bg-[#001F10]"> </div>
-             <h1 className="text-lg md:text-3xl font-semibold text-[#001F10]"> Customized Strategies </h1>
+             <h1 className="text-2xl md:text-3xl font-bold text-[#001F10]"> Customized Strategies </h1>
              <div className="h-1 w-12 bg-[#001F10]"> </div>
             </div>
  
 
-            <p className="mt-2">
+            <p className="mt-2 text-[#777777] leading-snug">
               {" "}
               We take a holistic, science-based approach to ecosystem restoration and management. By deeply understanding the complex relationships between all living and non-living components of an ecosystem, we develop tailored strategies that promote long-term resilience, biodiversity, and ecosystem services. Our work focuses on the intricate balance between human activities and the natural world, ensuring that both can coexist sustainably and thrive together.
 

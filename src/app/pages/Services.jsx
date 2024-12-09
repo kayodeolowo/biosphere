@@ -97,7 +97,7 @@ const Services = () => {
               src="/assets/images/workers.png"
               width={450}
               height={500}
-              className=" "
+              className="max-md:w-fit max-md:mx-auto "
             />
     </div>
 
