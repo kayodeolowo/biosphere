@@ -8,10 +8,10 @@ const Services = () => {
 <Container >
     <div className=' '>
 
-        <div className='pt-20 flex items-center justify-between'>
-        <h1 className='text-bold text-4xl max-w-[60rem]  w-[90%]'> Explore our comprehensive suite of ecosystem services, designed to meet the unique needs of your project or organization. </h1>
-       <div className='flex items-center'>
-       <p className='font-bold'>Read more  </p>
+        <div className='pt-20 flex md:flex-row flex-col md:items-center md:justify-between'>
+        <h1 className='text-bold text-2xl md:text-4xl md:max-w-[60rem]  md:w-[90%]'> Explore our comprehensive suite of ecosystem services, designed to meet the unique needs of your project or organization. </h1>
+       <div className='flex flex-row max-md:mt-4  items-center'>
+       <p className='font-bold '>Read more  </p>
         <Image
               alt="biosphere logo"
               src="/assets/icons/arrowright.png"
@@ -23,8 +23,8 @@ const Services = () => {
         </div>
 
 
-        <div className='flex mt-10 mb-10 space-x-10'>
-  <div className="relative w-[660px] h-[300px]">
+        <div className='flex md:flex-row flex-col mt-10 mb-10 md:space-x-10'>
+  <div className="relative md:w-[660px] h-[300px]">
     <Image
       alt="Ecological Assessments"
       src="/assets/images/farmer.png"
@@ -38,7 +38,7 @@ const Services = () => {
     </div>
   </div>
 
-  <div className="relative w-[500px] h-[300px]">
+  <div className="relative max-md:mt-10 md:w-[500px] h-[300px]">
     <Image
       alt="Habitat Restoration"
       src="/assets/images/trees.png"
@@ -53,8 +53,8 @@ const Services = () => {
   </div>
 </div>
 
-<div className='flex mb-20 space-x-10'>
-  <div className="relative w-[480px] h-[300px]">
+<div className='flex md:flex-row flex-col mb-20 md:space-x-10'>
+  <div className="relative md:w-[480px] h-[300px]">
     <Image
       alt="Environmental Education"
       src="/assets/images/children.png"
@@ -68,7 +68,7 @@ const Services = () => {
     </div>
   </div>
 
-  <div className="relative w-[680px] h-[300px]">
+  <div className="relative max-md:mt-10 md:w-[680px] h-[300px]">
     <Image
       alt="Sustainable Land Management"
       src="/assets/images/boy.png"
@@ -88,10 +88,10 @@ const Services = () => {
 
 
     <div>
-        <p className='text-5xl font-bold'>  When it comes to ecosystem management, experience and expertise make all the difference. Here's why <span className='bg-[#E0E40B]  '> Biophere Solutions </span> is the trusted partner for your nature-based initiatives. </p>
+        <p className='text-2xl md:text-5xl font-bold'>  When it comes to ecosystem management, experience and expertise make all the difference. Here&apos;s why <span className='bg-[#E0E40B]  '> Biophere Solutions </span> is the trusted partner for your nature-based initiatives. </p>
    
-   <div className='flex mt-14  space-x-2 pb-12'>
-    <div className='w-[49%]'>
+   <div className='flex md:flex-row flex-col mt-14  md:space-x-2 pb-12'>
+    <div className='md:w-[49%]'>
     <Image
               alt="biosphere logo"
               src="/assets/images/workers.png"
@@ -102,9 +102,9 @@ const Services = () => {
     </div>
 
 
-    <div className='w-[45%]'>
+    <div className='md:w-[45%]'>
     <div className="space-y-8">
-  <div className="flex items-start space-x-4 border-b border-gray-300 pb-4">
+  <div className="flex max-md:mt-8 items-start space-x-4 border-b border-gray-300 pb-4">
     <div className="bg-[#A3EB6B] text-green-800 p-2 rounded-full">
       <svg
         xmlns="http://www.w3.org/2000/svg"

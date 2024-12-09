@@ -8,7 +8,7 @@ const Header = () => {
     <section>
         <Container>
            <div className='flex justify-between items-center border-[#A3EB6B1A] bg-[#0B301E] px-4 rounded-xl py-2 mt-4'>
-           <div>
+           <div className='max-sm:hidden'>
                 <Image alt='biosphere logo'
                 src="/assets/images/logo.png"
                 width={60}
@@ -16,7 +16,7 @@ const Header = () => {
             </div>
 
 
-            <div className='flex space-x-3 text-white '>
+            <div className='flex space-x-3 w-fit mx-auto max-sm:py-4 text-white '>
                 <p> Home </p>
                 <p> Service </p>
                 <p> Company </p>
@@ -26,7 +26,7 @@ const Header = () => {
 
 
 
-            <div>
+            <div className='max-sm:hidden'>
 <PrimaryButton> Get Started </PrimaryButton>
             </div>
            </div>

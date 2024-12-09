@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section>
       <Container>
-      <div className="flex justify-between  mb-10 mt-10">
+      <div className="flex md:flex-row flex-col max-md:space-y-4 md:justify-between  mb-10 mt-10">
         <div className=" text-[#F5F2F2]">
           <p> Contact us today </p>
           <p> info@biospheresolutions.com </p>
@@ -18,7 +18,7 @@ const Footer = () => {
             src="/assets/icons/x.png"
             width={20}
             height={20}
-            className=" "
+            className="cursor-pointer "
           />
 
           <Image
@@ -26,7 +26,7 @@ const Footer = () => {
             src="/assets/icons/ig.png"
             width={20}
             height={20}
-            className=" "
+            className=" cursor-pointer"
           />
 
           <Image
@@ -34,7 +34,7 @@ const Footer = () => {
             src="/assets/icons/facebook.png"
             width={20}
             height={20}
-            className=" "
+            className="cursor-pointer "
           />
 
           <Image
@@ -42,7 +42,7 @@ const Footer = () => {
             src="/assets/icons/youtube.png"
             width={20}
             height={20}
-            className=" "
+            className="cursor-pointer "
           />
 
           <Image
@@ -50,7 +50,7 @@ const Footer = () => {
             src="/assets/icons/linkedin.png"
             width={20}
             height={20}
-            className=" "
+            className=" cursor-pointer"
           />
         </div>
 

@@ -6,12 +6,12 @@ const About = () => {
   return (
     <div className="bg-[#F3F5F4]">
       <Container>
-        <div className="flex pt-16">
-          <div className="w-[68%]  ">
+        <div className="flex md:flex-row flex-col pt-16">
+          <div className="md:w-[68%]  ">
             <div className="flex w-fit items-center space-x-2">
-             <div className="h-1 w-12 bg-[#001F10]"> </div>
-             <h1 className="text-3xl font-semibold text-[#001F10]"> Ecosystem-based Solutions </h1>
-             <div className="h-1 w-12 bg-[#001F10]"> </div>
+             <div className="h-1 w-6 md:w-12 bg-[#001F10]"> </div>
+             <h1 className="md:text-3xl text-lg font-semibold text-[#001F10]"> Ecosystem-based Solutions </h1>
+             <div className="h-1 w-6 md:w-12 bg-[#001F10]"> </div>
             </div>
  
 
@@ -23,7 +23,7 @@ We recognize that ecosystems provide essential services such as clean air, water
             </p>
           </div>
 
-          <div className="w-[30%]">
+          <div className="md:w-[30%]">
             <Image
               alt="biosphere logo"
               src="/assets/images/kids.png"
@@ -36,23 +36,23 @@ We recognize that ecosystems provide essential services such as clean air, water
 
 
 
-        <div className="flex  justify-between w-full mt-20">
+        <div className="flex  md:flex-row flex-col-reverse justify-between w-full mt-20">
           
 
-          <div className="w-[30%]">
+          <div className="md:w-[30%]">
             <Image
               alt="biosphere logo"
               src="/assets/images/union.png"
               width={300}
               height={420}
-              className=" "
+              className=" max-md:w-fit mx-auto "
             />
           </div>
 
-          <div className="w-[50%]">
+          <div className="md:w-[50%]">
             <div className="flex  items-center space-x-2">
              <div className="h-1 w-12 bg-[#001F10]"> </div>
-             <h1 className="text-3xl font-semibold text-[#001F10]"> Customized Strategies </h1>
+             <h1 className="text-lg md:text-3xl font-semibold text-[#001F10]"> Customized Strategies </h1>
              <div className="h-1 w-12 bg-[#001F10]"> </div>
             </div>
  
@@ -61,7 +61,7 @@ We recognize that ecosystems provide essential services such as clean air, water
               {" "}
               We take a holistic, science-based approach to ecosystem restoration and management. By deeply understanding the complex relationships between all living and non-living components of an ecosystem, we develop tailored strategies that promote long-term resilience, biodiversity, and ecosystem services. Our work focuses on the intricate balance between human activities and the natural world, ensuring that both can coexist sustainably and thrive together.
 
-Each ecosystem is unique, with its own challenges, opportunities, and needs. Our team of experts carefully assesses the ecological, social, and economic factors of the area in question, considering both the immediate and long-term impacts of potential interventions. This thorough understanding enables us to design customized solutions that address the root causes of environmental degradation, whether it's deforestation, soil erosion, water scarcity, or biodiversity loss.
+Each ecosystem is unique, with its own challenges, opportunities, and needs. Our team of experts carefully assesses the ecological, social, and economic factors of the area in question, considering both the immediate and long-term impacts of potential interventions. This thorough understanding enables us to design customized solutions that address the root causes of environmental degradation, whether it&apos;s deforestation, soil erosion, water scarcity, or biodiversity loss.
             </p>
           </div>
         </div>

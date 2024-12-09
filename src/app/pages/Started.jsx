@@ -8,7 +8,7 @@ const Started = () => {
 <section>
     <Container>
         <div>
-            <h1 className='text-center text-6xl font-bold text-white mt-20'> Get Started Today </h1>
+            <h1 className='text-center text-3xl md:text-6xl font-bold text-white mt-20'> Get Started Today </h1>
        <p className='text-[#F5F2F2] text-center mt-8'> Ready to transform your relationship with the natural world? Contact us today to learn how our ecosystem <br/> services can help you achieve your environmental goals. </p>
        
        <div className='w-fit mx-auto mt-6'>
@@ -23,7 +23,7 @@ const Started = () => {
             />
         </div>
 
-        <h1 className='text-center text-6xl font-bold text-white mt-12'> Biosphere Solutions </h1>
+        <h1 className='md:text-center text-3xl  md:text-6xl font-bold text-white mt-12'> Biosphere Solutions </h1>
     </Container>
 </section>
   )
