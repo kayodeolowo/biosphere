@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section>
       <Container>
-      <div className="flex md:flex-row flex-col max-md:space-y-4 md:justify-between  mb-10 mt-10">
+      <div className="flex md:flex-row flex-col max-md:space-y-4 md:justify-between  mb-10 mt-[8rem]">
         <div className=" text-[#F5F2F2]">
           <p> Contact us today </p>
           <p> info@biospheresolutions.com </p>

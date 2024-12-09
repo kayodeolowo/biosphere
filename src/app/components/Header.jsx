@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <section className="">
-      //sticky top-6 z-50
+      
       <Container>
       <div className="flex  justify-between items-center border-[#A3EB6B1A] bg-[#0B301E] px-4 rounded-xl py-2 mt-4">
           {/* Logo */}
@@ -42,10 +42,10 @@ const Header = () => {
             {menuItems.map((item) => (
               <p
                 key={item.id}
-                className={`cursor-pointer transition-colors duration-300 ${
+                className={`cursor-pointer font-semibold transition-colors duration-300 ${
                   activeTab === item.id
-                    ? "text-red-500 font-bold"
-                    : "hover:text-red-300"
+                    ? "text-[#A3EB6B] "
+                    : "hover:text-[#83a06c] transition-all ease-in duration-300 "
                 }`}
                 onClick={() => handleScroll(item.id)}
               >

@@ -23,7 +23,7 @@ const Started = () => {
             />
         </div>
 
-        <h1 className='md:text-center text-3xl  md:text-6xl font-bold text-white mt-12'> Biosphere Solutions </h1>
+        <h1 className='md:text-center text-3xl  md:text-6xl font-bold text-white mt-20'> Biosphere Solutions </h1>
     </Container>
 </section>
   )
